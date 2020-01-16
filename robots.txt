@@ -1,4 +1,4 @@
 User-agent: *
-Sitemap: http://localhost:2368/sitemap.xml
+Sitemap: https://xxqs.git.xin/sitemap.xml
 Disallow: /ghost/
 Disallow: /p/
