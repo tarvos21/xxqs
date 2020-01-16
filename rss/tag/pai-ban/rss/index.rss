@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="//purl.org/dc/elements/1.1/" xmlns:content="//purl.org/rss/1.0/modules/content/" xmlns:atom="//www.w3.org/2005/Atom" version="2.0" xmlns:media="//search.yahoo.com/mrss/"><channel><title><![CDATA[排版 - 叉叉求是]]></title><description><![CDATA[有感而发，心物相照]]></description><link>https://xxqs.git.xin/</link><image><url>https://xxqs.git.xin/favicon.png</url><title>排版 - 叉叉求是</title><link>https://xxqs.git.xin/</link></image><generator>Ghost 2.16</generator><lastBuildDate>Thu, 16 Jan 2020 15:28:34 GMT</lastBuildDate><atom:link href="https://xxqs.git.xin/tag/pai-ban/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[论坛编辑器基础语法简介]]></title><description><![CDATA[<p></p><p>现在用的是<code>Markdown</code>语法，除了编辑器自带的图形化编辑设置，还可以直接采用特殊字符来实现格式的变化。简单介绍一下主要的功能。<br>上面是输入的内容，下面是显示的内容。</p><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="-">标题</h3><!--kg-card-begin: code--><pre><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题</code></pre><!--kg-card-end: code--><h1 id="--1">一级标题</h1><h2 id="--2">二级标题</h2><h3 id="--3">三级标题</h3><h4 id="--4">四级标题</h4><h5 id="--5">五级标题</h5><h6 id="--6">六级标题</h6><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="--7">加粗、斜体、删除</h3><!--kg-card-begin: code--><pre><code>**加粗**
+*斜体*
+~~删除~~</code></pre><!--kg-card-end: code--><p><strong><strong>加粗</strong></strong><br><em>斜体</em><br><s>删除</s></p><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="--8">引用</h3><!--kg-card-begin: code--><pre><code>&gt; 引用内容</code></pre><!--kg-card-end: code--><blockquote>引用内容</blockquote><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="--9">列表</h3><p>空两格一个*。</p><!--kg-card-begin: code--><pre><code>* 第一部分
+  * 第一章
+    * 第一节
+1. 第一章
+2. 第二章
+3. 第三章</code></pre><!--kg-card-end: code--><!--kg-card-begin: markdown--><ul>
+<li>第一部分
+<ul>
+<li>第一章
+<ul>
+<li>第一节</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--kg-card-end: markdown--><ol><li>第一章</li><li>第二章</li></ol>]]></description><link>https://xxqs.git.xin/lun-tan-bian-ji-qi-ji-chu-yu-fa-jian-jie/</link><guid isPermaLink="false">5c93aee4c974afb2074b6909</guid><category><![CDATA[Markdown]]></category><category><![CDATA[Markdown语法]]></category><category><![CDATA[编辑器]]></category><category><![CDATA[论坛]]></category><category><![CDATA[排版]]></category><category><![CDATA[格式]]></category><dc:creator><![CDATA[杜兵]]></dc:creator><pubDate>Sat, 29 Dec 2018 15:33:00 GMT</pubDate><content:encoded><![CDATA[<p></p><p>现在用的是<code>Markdown</code>语法，除了编辑器自带的图形化编辑设置，还可以直接采用特殊字符来实现格式的变化。简单介绍一下主要的功能。<br>上面是输入的内容，下面是显示的内容。</p><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="-">标题</h3><!--kg-card-begin: code--><pre><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题</code></pre><!--kg-card-end: code--><h1 id="--1">一级标题</h1><h2 id="--2">二级标题</h2><h3 id="--3">三级标题</h3><h4 id="--4">四级标题</h4><h5 id="--5">五级标题</h5><h6 id="--6">六级标题</h6><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="--7">加粗、斜体、删除</h3><!--kg-card-begin: code--><pre><code>**加粗**
+*斜体*
+~~删除~~</code></pre><!--kg-card-end: code--><p><strong><strong>加粗</strong></strong><br><em>斜体</em><br><s>删除</s></p><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="--8">引用</h3><!--kg-card-begin: code--><pre><code>&gt; 引用内容</code></pre><!--kg-card-end: code--><blockquote>引用内容</blockquote><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="--9">列表</h3><p>空两格一个*。</p><!--kg-card-begin: code--><pre><code>* 第一部分
+  * 第一章
+    * 第一节
+1. 第一章
+2. 第二章
+3. 第三章</code></pre><!--kg-card-end: code--><!--kg-card-begin: markdown--><ul>
+<li>第一部分
+<ul>
+<li>第一章
+<ul>
+<li>第一节</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--kg-card-end: markdown--><ol><li>第一章</li><li>第二章</li><li>第三章</li></ol><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="--10">代码、代码段落</h3><p>行内的代码，在代码前后加上反引号字符`，电脑键盘上在数字 1 的左边。</p><!--kg-card-begin: code--><pre><code>`This is code`</code></pre><!--kg-card-end: code--><p><code>This is code</code></p><p>对于多行的代码，或者想高亮显示的段落，需在上一行和下一行都加上三个小的反引号字符。这个无法打出来，以下是显示效果。</p><!--kg-card-begin: code--><pre><code>var me = shit;
+var you = god;
+var he = her;
+var it = whatever;</code></pre><!--kg-card-end: code--><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="--11">分割线</h3><p>连续三个 * 或 - 或 _ 。</p><!--kg-card-begin: code--><pre><code>***
+---
+___</code></pre><!--kg-card-end: code--><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="--12">链接</h3><!--kg-card-begin: code--><pre><code>[百度链接](https://baidu.com)</code></pre><!--kg-card-end: code--><p><a href="https://baidu.com/" rel="nofollow">百度链接</a></p><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="--13">图片</h3><p>为了显示图片，可以点击图片标签，需要提供图片链接。也可以点击上传图标，直接上传图片或其他文件，需要消耗存储资源。</p><!--kg-card-begin: code--><pre><code>![百度标志图片](https://www.baidu.com/img/bd_logo1.png?qua=high&amp;where=super)</code></pre><!--kg-card-end: code--><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="https://www.baidu.com/img/bd_logo1.png?qua=high&amp;where=super" class="kg-image" alt="百度标志图片"></figure><!--kg-card-end: image--><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="--14">表格</h3><p>使用 - 和 + 字符实现，不必对齐。</p><!--kg-card-begin: code--><pre><code>姓名 | 电话 | 地址
+-|-|-
+王五 | 234 | 地球
+陈金 | 110 | 火星
+赵云 | 093 | 天王星</code></pre><!--kg-card-end: code--><!--kg-card-begin: markdown--><table>
+<thead>
+<tr>
+<th>姓名</th>
+<th>电话</th>
+<th>地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>王五</td>
+<td>234</td>
+<td>地球</td>
+</tr>
+<tr>
+<td>陈金</td>
+<td>110</td>
+<td>火星</td>
+</tr>
+<tr>
+<td>赵云</td>
+<td>093</td>
+<td>天王星</td>
+</tr>
+</tbody>
+</table>
+<!--kg-card-end: markdown--><!--kg-card-begin: hr--><hr><!--kg-card-end: hr--><h3 id="--15">参考链接：</h3><p>中文：<a href="https://www.zybuluo.com/techird/note/46064" rel="nofollow">https://www.zybuluo.com/techird/note/46064</a></p><p>英文：<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet" rel="nofollow">https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet</a></p>]]></content:encoded></item></channel></rss>
